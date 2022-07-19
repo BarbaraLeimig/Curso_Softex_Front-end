@@ -1,0 +1,231 @@
+Algoritmo "MeiosDeTransporte"
+
+Var
+   resposta: caractere
+
+Inicio
+   escreval ("----Jogo de Adivinhação: Meios de Transporte----")
+   escreval ("Escolha mentalmente um dos meios de transporte a seguir:")
+   escreval ()
+   escreval ("Trator")
+   escreval ("Bicicleta")
+   escreval ("Moto")
+   escreval ("Trem")
+   escreval ("Camihão")
+   escreval ("Ônibus")
+   escreval ("Carro")
+   escreval ("Asa Delta")
+   escreval ("Balão")
+   escreval ("Avião")
+   escreval ("Helicóptero")
+   escreval ("Submarino")
+   escreval ("Barco")
+   escreval ("Navio")
+   escreval ("Lancha")
+   escreval ()
+   escreval ("Agora, responda sim ou não para as questões a seguir:")
+   escreval ()
+
+   escreva ("É terrestre? ")
+   leia (resposta)
+   se (resposta = "sim") entao
+      escreval ()
+      escreva ("Cabe apenas uma pessoa? ")
+      leia (resposta)
+      se (resposta = "sim") entao
+         escreval ()
+         escreva ("É pesado? ")
+         leia (resposta)
+         se (resposta = "sim") entao
+            escreval ()
+            escreval ("O meio de trasporte escolhido foi o Trator.")
+         senao
+            se (resposta = "não") entao
+               escreval ()
+               escreva ("Tem pedal? ")
+               leia (resposta)
+               se (resposta = "sim") entao
+                  escreval ()
+                  escreval ("O meio de trasporte escolhido foi a Bicicleta.")
+               fimse
+            fimse
+         fimse
+      senao
+         se (resposta = "não") entao
+            escreval ()
+            escreva ("Usa capacete? ")
+            leia (resposta)
+            se (resposta = "sim") entao
+               escreval ()
+               escreval ("O meio de transporte escolhido foi a Moto.")
+            senao
+               se (resposta = "não") entao
+                  escreval ()
+                  escreva ("Tem passageiro? ")
+                  leia (resposta)
+                  se (resposta = "sim") entao
+                     escreval ()
+                     escreva ("Usa trilho? ")
+                     leia (resposta)
+                     se (resposta = "sim") entao
+                        escreval ()
+                        escreval ("O meio de transporte escolhido foi o Trem.")
+                     senao
+                        se (resposta = "não") entao
+                           escreval ()
+                           escreva ("Anda na pista? ")
+                           leia (resposta)
+                           se (resposta = "sim") entao
+                              escreval ()
+                              escreva ("É alto? ")
+                              leia (resposta)
+                              se (resposta = "sim") entao
+                                 escreval ()
+                                 escreva ("Usa carroceria? ")
+                                 leia (resposta)
+                                 se (resposta = "sim") entao
+                                    escreval ()
+                                    escreval ("O meio de transporte escolhido foi o Caminhão.")
+                                 senao
+                                    se (resposta = "não") entao
+                                       escreval ()
+                                       escreva ("Pode ter cobrador? ")
+                                       leia (resposta)
+                                       se (resposta = "sim") entao
+                                          escreval ()
+                                          escreval ("O meio de transporte escolhido foi o Ônibus.")
+                                       fimse
+                                    fimse
+                                 fimse
+                              senao
+                                 se (resposta = "não") entao
+                                    escreval ()
+                                    escreva ("É veículo leve? ")
+                                    leia (resposta)
+                                    se (resposta = "sim") entao
+                                       escreval ()
+                                       escreval ("O meio de transporte escolhido foi o Carro.")
+                                    fimse
+                                 fimse
+                              fimse
+                           fimse
+                        fimse
+                     fimse
+                  fimse
+               fimse
+            fimse
+         fimse
+      fimse
+   senao
+      se (resposta = "não") entao
+         escreval ()
+         escreva ("É aéreo? ")
+         leia (resposta)
+         se (resposta = "sim") entao
+            escreval ()
+            escreva ("Precisa pular? ")
+            leia (resposta)
+            se (resposta = "sim") entao
+               escreval ()
+               escrevaL ("O meio de transporte escolhido foi a Asa Delta.")
+            senao
+               se (resposta = "não") entao
+                  escreval ()
+                  escreva ("Viaja dentro? ")
+                  leia (resposta)
+                  se (resposta = "sim") entao
+                     escreval ()
+                     escreva ("É devagar? ")
+                     leia (resposta)
+                     se (resposta = "sim") entao
+                        escreval ()
+                        escreval ("O meio de transporte escolhido foi o Balão.")
+                     senao
+                        se (resposta = "não") entao
+                           escreval ()
+                           escreva ("Tem piloto? ")
+                           leia (resposta)
+                           se (resposta = "sim") entao
+                              escreval ()
+                              escreva ("Possui asas fixas? ")
+                              leia (resposta)
+                              se (resposta = "sim") entao
+                                 escreval ()
+                                 escreval ("O meio de transporte escolhido foi o Avião")
+                              senao
+                                 se (resposta = "não") entao
+                                    escreval ()
+                                    escreva ("Faz voo vertical? ")
+                                    leia (resposta)
+                                    se (resposta = "sim") então
+                                       escreval ()
+                                       escreval ("O meio de transporte escolhido foi o Helicóptero.")
+                                    fimse
+                                 fimse
+                              fimse
+                           fimse
+                        fimse
+                     fimse
+                  fimse
+               fimse
+            fimse
+         senao
+            se (resposta = "não") entao
+               escreval ()
+               escreva ("É aquático? ")
+               leia (resposta)
+               se (resposta = "sim") entao
+                  escreval ()
+                  escreva ("É coberto d'água? ")
+                  leia (resposta)
+                  se (resposta = "sim") entao
+                     escreval ()
+                     escreval ("O meio de transporte escolhido foi o Submarino.")
+                  senao
+                     se (resposta = "não") entao
+                        escreval ()
+                        escreva ("Navega na água? ")
+                        leia (resposta)
+                        se (resposta = "sim") entao
+                           escreval ()
+                           escreva ("Possui vela? ")
+                           leia (resposta)
+                           se (resposta = "sim") entao
+                              escreval ()
+                              escreval ("O meio de transporte escolhido foi o Barco.")
+                           senao
+                              se (resposta = "não") entao
+                                 escreval ()
+                                 escreva ("Tem motor? ")
+                                 leia (resposta)
+                                 se (resposta = "sim") entao
+                                    escreval ()
+                                    escreva ("É alto? ")
+                                    leia (resposta)
+                                    se (resposta = "sim") entao
+                                       escreval ()
+                                       escreval ("O meio de transporte escolhido foi o Navio.")
+                                    senao
+                                       se (resposta = "não") entao
+                                          escreval ()
+                                          escreva ("Pode ser descoberto? ")
+                                          leia (resposta)
+                                          se (resposta = "sim") entao
+                                             escreval ()
+                                             escreval ("O meio de transporte escolhido foi a Lancha.")
+                                          fimse
+                                       fimse
+                                    fimse
+                                 fimse
+                              fimse
+                           fimse
+                        fimse
+                     fimse
+                  fimse
+               fimse
+            fimse
+         fimse
+      fimse
+   fimse
+
+Fimalgoritmo
