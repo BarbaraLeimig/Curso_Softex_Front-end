@@ -1,0 +1,111 @@
+Algoritmo "CalculadoraAprovadosVestibular"
+
+
+var
+   nome, turma, alunomnota, turmamnota: caractere
+   nota, ap, rep, mnota, mnotaA, mnotaB, mnotaC, mnotaD: real
+   cont, contapA, contapB, contapC, contapD, apA, apB, apC, apD: inteiro
+
+inicio
+   cont <- 1
+   contapA <- 0
+   contapB <- 0
+   contapC <- 0
+   contapD <- 0
+
+   // as notas por turma não se repetem
+   para cont:= 1 ate 8 faca
+      se (cont <= 2) então
+         turma <- "A"
+      senao
+         se ((cont > 2) e (cont <= 4)) entao
+            turma <- "B"
+         senao
+            se ((cont > 4) e (cont <= 6)) entao
+               turma <- "C"
+            senao
+               se ((cont > 6) e (cont <= 8)) entao
+                  turma <- "D"
+               fimse
+            fimse
+         fimse
+      fimse
+
+      escreval("Turma: ", turma)
+      escreval()
+      escreval("Nome do aluno: ")
+      leia(nome)
+      escreval("Nota do vestibular do aluno: ")
+      leia(nota)
+      escreval()
+
+      // requisitos para aprovação
+      // ap = aprovado e rep = reprovado
+      se (nota >= 7) entao
+         ap <- nota
+      senao
+         se (nota < 7) entao
+            rep <- nota
+         fimse
+      fimse
+
+      // quantidade de aprovados em cada turma
+      se (turma = "A") entao
+         ap <- apA
+         apA <- contapA
+         contapA <- apA + 1
+      senao
+         se (turma = "B") entao
+            ap <- apB
+            apB <- contapB
+            contapB <- apB + 1
+         senao
+            se (turma = "C") entao
+               ap <- apC
+               apC <- contapC
+               contapC <- apC + 1
+            senao
+               se (turma = "D") entao
+                  ap <- apD
+                  apD <- contapD
+                  contapD <- apD + 1
+               fimse
+            fimse
+         fimse
+      fimse
+
+      // maiores notas de cada turma e aluno com maior nota
+      // mnota = maior nota
+      se (nota > mnota) entao
+         mnota <- nota
+         alunomnota <- nome
+         turmamnota <- turma
+      fimse
+      se ((nota > mnotaA) e (turma = "A")) entao
+         mnotaA <- nota
+      fimse
+      se ((nota > mnotaB) e (turma = "B")) entao
+         mnotaB <- nota
+      fimse
+      se ((nota > mnotaC) e (turma = "C")) entao
+         mnotaC <- nota
+      fimse
+      se ((nota > mnotaD) e (turma = "D")) entao
+         mnotaD <- nota
+      fimse
+   fimpara
+
+   //quantidade de aprovados por turma
+   escreval(apA, " alunos da turma A foram aprovados.")
+   escreval(apB, " alunos da turma B foram aprovados.")
+   escreval(apC, " alunos da turma C foram aprovados.")
+   escreval(apD, " alunos da turma D foram aprovados.")
+
+   //maior nota de cada turma e dados do aluno com melhor desemepenho
+   escreval("Maior nota da turma A: ", mnotaA, ".")
+   escreval("Maior nota da turma B: ", mnotaB, ".")
+   escreval("Maior nota da turma C: ", mnotaC, ".")
+   escreval("Maior nota da turma D: ", mnotaD, ".")
+   escreval(alunomnota, ", aluno da turma ", turmamnota, " obteve a maior nota, pontuando: ", mnota)
+
+fimalgoritmo
