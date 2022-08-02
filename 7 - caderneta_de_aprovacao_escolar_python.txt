@@ -1,0 +1,26 @@
+#variáveis
+nome = str;
+n1 = float;
+n2 = float;
+faltas = int;
+media = float;
+
+#código
+print("Digite as informações solicitadas a seguir:");
+print("Digite o nome do aluno:");
+nome = input();
+print("Digite a nota do primeiro semestre:");
+n1 = float(input());
+print("Digite a nota do segundo semestre:");
+n2 = float(input());
+print("Digite o número de faltas:");
+faltas = int(input());
+
+#cálculo da média
+media = (n1 + n2)/2;
+
+#operadores
+if (media < 7) or (faltas > 3):
+    print("O aluno ", nome, " está reprovado.");
+else:
+    print("O aluno ", nome, " está aprovado!");
