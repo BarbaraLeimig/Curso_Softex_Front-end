@@ -1,0 +1,12 @@
+Atividade 19 - Pesquise sobre os grafos e apresente dois exemplos de como são utilizados no contexto tecnológico.
+
+Os grafos permitem codificar relacionamentos entre pares de objetos como pessoas, rotas, páginas da web.
+Um exemplo são os aplicativos de rotas - como o Waze - onde serão utilizados recursos para que o motorista
+encontre a melhor rota para o(os) seu(s) destino(s), considerando o tempo de deslocamento, distância, velocidade da
+via e podendo trazer o benefício de redução de tempo de deslocamento e consequente custo com combustível
+considerando-se o uso de veículos automotivos. Nestes casos são utilizados os grafos direcinados e ponderados.
+Outro exemplo imprescindível para o ramo da epidemiologia em saúde é a relação entre infectados em uma epidemia
+(paciente A infectou pacientes B, C e D…), determinando o paciente fonte da infecção e a progressão geométrica em
+que ele e cada pessoa contaminada em seguida infectaram uma gama de n outras pessoas. Neste exemplo são utilizados
+os grafos direcionados tanto para casos de infecção, como reinfecção.
+
