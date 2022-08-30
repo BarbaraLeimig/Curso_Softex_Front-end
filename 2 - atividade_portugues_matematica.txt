@@ -1,0 +1,11 @@
+ATIVIDADE:
+Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M).
+Eles são divididos conforme a ilustração 1 em anexo.
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um.
+
+RESPOSTA:
+Em cada linha existem 4 alunos de P e 2 de M, 4 alunos de M e 2 de P alternadamente. Assim como em cada coluna. O professor descobriu a cadeira em que houve a troca ao verificar que em determinada linha e em determinada coluna haviam 3 alunos de P e 3 alunos de M, sendo o ponto de intersecção entre elas o local distoante que sinaliza a troca, tendo em vista que em todas as outras linhas e colunas se mantinha o padrão 4x2.
+O aluno de matemática trocou de lugar com o de português.
