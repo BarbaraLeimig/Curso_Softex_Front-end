@@ -1,0 +1,43 @@
+# OBJETOS MATERIAIS
+
+Objeto: Notebook
+	Atributos
+		Marca: Acer
+		Cor: Preto
+		Tamanho: 15,6"
+	Métodos:
+		Acessar_internet()
+		Enviar_email()
+		Digitar_textos()
+
+Objeto: Smart_tv
+	Atibutos
+		Marca: Samsung 
+		Cor: Preta
+		Tamanho: 50"
+	Métodos: 
+		Acessar_spotfy()
+		Acessar_netflix()
+		Acessar_hbomax()
+
+# OBJETOS ABSTRATOS
+
+Objeto: App_riachuelo
+	Atributos
+		Nome: Maria
+		CPF: 000.000.000-00
+		Data_de_nascimento: 17/04/1968
+	Métodos:
+		Adicionar_ao_carrinho()
+		Comprar()
+		Pagar()
+
+Objeto: Gmail
+	Atributos
+		Nome_compeleto: Maria da Silva
+		Endereço_de_email: mariadasilva@gmail.com
+		Senha: WeshQ87K21
+	Métodos:
+		Login()
+		Escrever()
+		Enviar()
