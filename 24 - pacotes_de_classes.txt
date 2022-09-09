@@ -1,0 +1,88 @@
+package br.cxa.banco;
+
+public class Client {
+	private String name;
+	private String cpf;
+	private String account;
+	
+	Client(String name, String cpf, String salary) {
+		this.name = name;
+		this.cpf = cpf;
+		this.account = account;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getAccount() {
+		return account;
+	}
+
+	public void setAccount(String account) {
+		this.account = account;
+	}
+
+	@Override
+	public String toString() {
+		return "CLient [name=" + name + ", cpf=" + cpf + ", account=" + account + "]";
+	}
+	
+}
+
+
+package br.cxa.banco.employee;
+
+public class Manager {
+	
+	private String name;
+	private String cpf;
+	private double salary;
+	
+	Manager(String name, String cpf, double salary) {
+		this.name = name;
+		this.cpf = cpf;
+		this.salary = salary;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Manager [name=" + name + ", cpf=" + cpf + ", salary=" + salary + "]";
+	}
+
