@@ -1,0 +1,6 @@
+print('Digite uma palavra ou frase: ')
+writen = input()
+print(f'Palavra digitada: {writen}')
+print(f'Quantidade de caracteres da palavra ou frase: {len(writen)}')
+print(f'Convertida em maiúsculo: {writen.upper()}')
+print(f'Convertida em minúsculo: {writen.lower()}')
