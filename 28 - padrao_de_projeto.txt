@@ -1,0 +1,37 @@
+PADRÃO DE PROJETO ADAPTER
+
+Converter a interface de uma classe por outra esperada pelos clientes . O que possibilita que classes 
+com interfaces incompatíveis trabalhem em conjunto – ou que, de outra forma, seria impossível. 
+Também conhecido como Wrapper (adaptador). O padrão Adapter é bastante comum no código Python. 
+É frequentemente usado em sistemas baseados em algum código legado. Nesses casos, os adaptadores criam 
+código legado com classes modernas.
+Algumas vezes, uma classe de um toolkit, projetada para ser reutilizada não condiz com a interface 
+específica de um domínio requerida por uma aplicação.
+O adapter é reconhecível por um construtor que utiliza uma instância de tipo abstrato/interface diferente. 
+Quando o adaptador recebe uma chamada para qualquer um de seus métodos, ele converte parâmetros para o formato 
+apropriado e direciona a chamada para um ou vários métodos do objeto envolvido.
+
+O uso do padrão está condicionado a:
+
+- Usar uma classe existente, mas sua interface não corresponde à interface requerida;
+- Criar classes reutilizáveis que cooperam com classes não-relacionadas ou não previstas, ou seja, 
+classes com interface inicialmente incompatível.
+
+Os participantes são:
+
+- Target (Alvo)–define a interface específica do domínio do cliente;
+- Client (cliente) –colabora com objetos compatíveis com mTarget;
+- Adaptee (Adaptação) –interface existente de necessita de adaptação;
+- Adapter (Adaptador) –adapta a interface Adapte e à interface Target.
+
+Para adaptações de classes:
+
+- Um adaptador de classe não funcionará quando quisermos adaptar uma classe e todas as suas subclasses;
+Permite a Adapter substituir algum comportamento de Adaptee, já que adapterá uma subclasse.
+Para adaptações de objetos:
+
+- Permite a um único Adapteradaptar um Adaptee e suas subclasses;
+Torna mais difícil redefinir o comportamento de um Adaptee. Conseguido através de uma subclasse de 
+Adaptee que é referenciada por Adapter.
+
+
