@@ -1,0 +1,19 @@
+**** DADOS UTILIZADOS NO COTIDIANO ****
+1. Prontuário odontológico eletrônico
+Tipos de dados: nome (string), idade (number), cpf (number), telefone (number), queixa principal (string), etc.
+
+2. Caderno de anotações online
+Tipos de dados: anotações (string)
+
+3. Calculadora
+Tipos de dados: cálculo de doses de medicações (number)
+
+**** DADOS NA INTERNET ****
+1. Cadastro em aplicativo
+Tipos de dados: nome (string), cpf (number), rg (number), endereço (string), email (string)
+
+2. Login em site de compras
+Tipos de dados: usuário (string), senha (string/number)
+
+3. Cálculo do frete:
+Tipos de dados: CEP (number)
