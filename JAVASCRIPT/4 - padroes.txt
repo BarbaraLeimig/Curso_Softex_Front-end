@@ -12,11 +12,14 @@ Métodos do padrão observer:
 - Notify: Método aplicado para notificar todos os observers que estão observando.
 
 Vantagens: 
-- permite que tanto os observadores quanto o sujeito sejam reutilizados, já que há um baixo acoplamento entre eles devido ao uso de interfaces e classes abstratas. om isso, é possível aumentar o número de observadores sem precisar modificar a classe observada. 
-- o observador pode ser implementado de forma que, quando receber uma notificação de mudança de estado do objeto observado, ele tenha autonomia em considerá-la ou ignorá-la.
+- permite que tanto os observadores quanto o sujeito sejam reutilizados, já que há um baixo acoplamento entre eles devido ao uso de interfaces
+e classes abstratas. Com isso, é possível aumentar o número de observadores sem precisar modificar a classe observada. 
+- o observador pode ser implementado de forma que, quando receber uma notificação de mudança de estado do objeto observado, ele tenha autonomia 
+em considerá-la ou ignorá-la.
 
 Desvantagens:
-	- usar este padrão de forma indiscriminada pode causar impacto na performance do sistema. Quando todos notificam todos a cada mudança, o sistema acaba ficando inundado de requisições, o que poderá levar a um desempenho mais lento.
+	- usar este padrão de forma indiscriminada pode causar impacto na performance do sistema. Quando todos notificam todos a cada mudança, 
+	o sistema acaba ficando inundado de requisições, o que poderá levar a um desempenho mais lento.
 
 Referências:
 https://www.patterns.dev/posts/classic-design-patterns/#observerpatternjavascript
