@@ -1,0 +1,24 @@
+# PADRÃO OBSERVER
+
+É um padrão de projeto classificado como comportamental e permite que um conjunto de objetos seja notificado e atualizado automaticamente
+quando outro objeto sofrer uma modificação. Existe um objeto central, denominado subject, e o mesmo possui uma lista de objetos dependentes,
+denominados observers. Estes, como o nome sugere, têm o objetivo de observar o subject.
+Quando o estado do subject é alterado, ele notifica a todos que o estão observando, independente da ação que cada observer irá executar após 
+a informação recebida, o que irá depender da aplicação de cada um. 
+
+Métodos do padrão observer:
+- Subscribe: Este método é utilizado para inscrever um observer;
+- Unsubscribe: Este é empregado para remover um observer;
+- Notify: Método aplicado para notificar todos os observers que estão observando.
+
+Vantagens: 
+- permite que tanto os observadores quanto o sujeito sejam reutilizados, já que há um baixo acoplamento entre eles devido ao uso de interfaces e classes abstratas. om isso, é possível aumentar o número de observadores sem precisar modificar a classe observada. 
+- o observador pode ser implementado de forma que, quando receber uma notificação de mudança de estado do objeto observado, ele tenha autonomia em considerá-la ou ignorá-la.
+
+Desvantagens:
+	- usar este padrão de forma indiscriminada pode causar impacto na performance do sistema. Quando todos notificam todos a cada mudança, o sistema acaba ficando inundado de requisições, o que poderá levar a um desempenho mais lento.
+
+Referências:
+https://www.patterns.dev/posts/classic-design-patterns/#observerpatternjavascript
+https://blog.cod3r.com.br/padrao-de-projeto-observer-em-javascript-observer-pattern/
+https://www.devmedia.com.br/o-padrao-de-projeto-observer/22861#:~:text=O%20observador%20pode%20ser%20implementado,impacto%20na%20performance%20do%20sistema
