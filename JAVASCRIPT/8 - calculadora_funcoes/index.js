@@ -1,17 +1,18 @@
-var input = require('readline-sync');
-
-console.log(soma());
-console.log(subtracao(14, 4));
-
-function soma() {
-    var n1 = Number(input.question('Digite o primeiro valor da soma: '));
-    var n2 = Number(input.question('Digite o segundo valor da soma: '));
-    var soma = (n1 + n2)
-
-    console.log(`O valor da soma é ${soma}`);
+// função sem parâmetros definidos
+function soma(){
+    console.log('A soma de 2+2 é ', 2 + 2);
 }
 
-function subtracao(){
-    sub = (n3 - n4);
-    return sub;
+// função com parâmetros definidos
+function sub(n1, n2){
+    return n1 - n2;
 }
+
+// arrow function
+mult = (n3, n4) => {
+    return n3 * n4;
+}
+
+soma();
+console.log('A diferença entre 8 e 2 é ', sub(8, 2));
+console.log('A multiplicação de 10 por 2 é ', mult(10, 2));
