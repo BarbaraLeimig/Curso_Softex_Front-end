@@ -1,0 +1,22 @@
+Request:
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2001/12/soap- envelope" soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding" xmlns:tiposns="http://www.w3.org/2001/XMLSchema">
+       <soap:Body>
+             <ns:retornaInfo xmlns:m="http://www.exemplo.com">
+                     <cpfCliente type="tiposns:int">11122233300</cpfCliente>
+             </ns:retornaInfo>
+       </soap:Body>
+</soap:Envelope>
+
+
+Response:
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2001/12/soap- envelope" soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding" xmlns:tiposns="http://www.w3.org/2001/XMLSchema">
+       <soap:Body>
+             <ns:retornaInfoResponse xmlns:m="http://www.example.com">
+                     <nome type="tiposns:string">Barbara Andrade</nome>
+		       <endereco type="tiposns:string">Rua da Aurora, 05050</endereco>
+			<telefone type="tiposns:int">81999999999</telefone>
+             </ns:retornaInfoResponse>
+       </soap:Body>
+</soap:Envelope>
