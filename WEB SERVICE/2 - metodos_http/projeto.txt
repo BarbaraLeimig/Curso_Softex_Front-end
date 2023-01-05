@@ -1,2 +1,33 @@
-*************************************** MÉTODOS HTTP *******************************************
+************************************************************************* MÉTODOS HTTP **********************************************************************************
 
+1. GET
+   Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: que pode ser um arquivo html, xml, json, etc. Ex:
+   
+   GET /entendendo-o-net-core-parte-3-o-coreclr/ HTTP/1.1  
+   User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)  
+   Host: http://gabsferreira.com  
+   Connection: Keep-Alive  
+  
+2. POST
+   O método POST é utilizado quando queremos criar um recurso. Quando usamos POST, os dados vão no corpo da requisição e não na URI.
+   
+3. PUT
+   Requisita que um recurso seja "guardado" na URI fornecida. Se o recurso já existir, ele deve ser atualizado. Se não existir, pode ser criado.
+
+4. DELETE
+   O método DELETE remove um recurso específico
+   
+5. TRACE
+   O método TRACE executa um teste de chamada loop-back junto com o caminho para o recurso de destino. Devolve a mesma requisição que for enviada veja se houve mudança e/ou adições feitas por servidores intermediários.
+   
+6. OPTIONS
+   Retorna os métodos HTTP suportados pelo servidor para a URL especificado, sendo usado para descrever as opções de comunicação com o recurso de destino.
+   
+7. PATCH
+   Serve para atualizar partes de um recurso, e não o recurso todo.
+   
+8. CONNECT
+   Converte a requisição de conexão para um túnel TCP/IP transparente, geralmente para facilitar a comunicação criptografada com SSL (HTTPS) através de um proxy HTTP não criptografado.
+   
+9. HEAD
+   O método HEAD solicita uma resposta de forma idêntica ao método GET, porém sem conter o corpo da resposta.
