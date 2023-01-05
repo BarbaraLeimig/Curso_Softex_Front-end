@@ -31,3 +31,8 @@
    
 9. HEAD
    O método HEAD solicita uma resposta de forma idêntica ao método GET, porém sem conter o corpo da resposta.
+   
+***********************************************************************************************************************************************************************
+
+WSDL: significa Web Services Description Language e é um padrão de mercado para descrever Web Services de forma a eliminar ao máximo a necessidade de comunicação entre as partes envolvidas em uma integração de dados. Ele normalmente é encontrado quando acrescentarmos “?wsdl” ao final da URL onde o Web Service está hospedado. 
+É um a descrição em formato XML de um Web Service que utilizará SOAP / RPC como protocolo. Por meio de um WSDL você informa ao cliente como cada serviço em um end-point deve ser invocado: quais os parâmetros e tipo de dados de cada parâmetro é esperado, e qual o tipo de dado do retorno será enviado como resposta. Além de descrever cada serviço (que pode ser comparado analogamente à um método a ser executado no programa servidor), também descreve como podem ser encontrados. WSDL é utilizado diretamente o SOAP, quando um cliente realiza uma chamada de serviço por meio de SOAP, primeiramente ele solicita o WSDL para entender como se dará esta negociação.
