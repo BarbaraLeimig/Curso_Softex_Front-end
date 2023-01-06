@@ -1,0 +1,23 @@
+Stateless (sem estado)
+- O servidor deve ter todas as solicitações feitas pelo cliente para as compreender.
+- Um URL é utilizado para identificar o recurso e o corpo, mantendo o estado do recurso solicitante.
+- Quando o servidor processar a solicitação, uma resposta será enviada ao cliente por meio de corpo, status ou cabeçalhos.
+
+Cliente-servidor
+- Permite uma interface regular e separa os clientes dos servidores. Isso aumenta a portabilidade em várias plataformas.
+
+Interface uniforme
+- Para obter a regularidade em toda a aplicação, existem quatro restrições de interface:
+•	identificação do recurso;
+•	manipulação de recursos usando representações;
+•	mensagens auto-descritivas; e
+•	hipermídia como motor do estado da aplicação.
+
+Armazenamento em cache
+- Melhora o desempenho.  Isso pode ser feito através de uma rotulação da resposta do servidor de forma implícita ou explícita.
+
+Sistema em camadas
+- Faz com que a aplicação seja mais estável, limitando o comportamento dos componentes em diversas camadas.
+ 
+Código sob demanda
+- Permite que um código do cliente seja baixado e usado dentro do aplicativo. É uma restrição opcional e menos usada.
