@@ -1,0 +1,16 @@
+//Com os arquivos anteriores compilados, agora é a hora de publicar
+
+package calc;
+
+import javax.xml.ws.Endpoint;
+
+public class CalculadoraServerPublisher {
+
+  public static void main(String[] args)
+  {
+    Endpoint.publish("http://localhost:8080",
+    new CalculadoraServerImpl());
+  }
+}
+
+// A classe endpoint é que nos permite publicar num servidor
