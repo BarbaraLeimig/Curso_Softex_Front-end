@@ -1,1 +1,22 @@
+[POST] http://localhost:3000/livraria/
+{
+"Nome":"Outlander: a viajante do tempo",
+"Autor":"Diana Gabaldon",
+"ISBN":8580418216
+}
 
+-------------------------------------------------------
+
+[GET] http://localhost:3000/livraria/8580418216
+
+-------------------------------------------------------
+
+[PUT] http://localhost:3000/livraria/
+{
+"Nome":"O resgate no mar",
+"ISBN":8580418224
+}
+
+-------------------------------------------------------
+
+[DELETE] http://localhost:3000/livraria/8580418216
