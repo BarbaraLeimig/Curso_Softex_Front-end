@@ -1,1 +1,9 @@
-
+O processo de investigação é uma etapa fundamental para a compreensão das camadas mais profundas do problema a ser solucionado. Sendo possível fazê-lo por meio da árvore da problemas. 
+É desenhada uma árvore com raízes, troncos e galhos com folhas. A ideia geral e associar as causas do problema central e as suas consequências para a atividade ou
+empresa em questão.
+No tronco é posta a problemática a ser resolvida. 
+Nas raízes da árvore serão escritas possíveis causas para este problema. Considerando a questão proposta por esta atividae, a empresa pode estar enfrentando dificuldades
+para que o usuários respondam o questionário por: questionário extenso, perguntas longas, opções de respostas complicadas, elevado tempo exigido para responder,
+perguntas abertas e não objetivas, falta de clareza no objetivo do questionário, envio em momentos inoportunos, os usuários não veem melhora respondendo à pesquisa e
+optam por não mais a responder, dentre outras possibildiades 
+As consequências de uma pesquisa de satisfação do cliente não adequada ou insatisfátoria dificulta a evolução do app ou serviço web, dificulta a tomada de decisão para novas estratégias, de desempenho e prospecção de novos usuários, estagna o processo de inovação contínua dos serviços.
