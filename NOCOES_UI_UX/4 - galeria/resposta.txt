@@ -1,4 +1,7 @@
 É interessante que, neste caso, seja feita uma prototipação de alta fidelidade. Porém é fundamental que as etapas anteriores do Design Thinking tenham sido bem
 estabelecidas. Considerar o contexto da aplicação, o público alvo, as cores e o design ideal para um aplicativo de uma galeria (algo mais clean, com tons neutros ou
-sauvaes), imagens de alta qualidade. Ter bem definidos os tipos de funcionalidades que esta aplicação vai ter, se apenas compra, se divulgação de trabalhos de artistas e de eventos, se haverá um clube de benefícios. Tudo o que seja pensado e voltado para o público-alvo, de forma intutiva e fácil uso. 
-Em seguida, fazer a prototipação para testar as funcionalidades e o aplicatibo como um todo. Analisar as sugestões da equipe acerca de melhoras, colocar para a equipe da própria galeria analisar, testar com pessoas que tenham a visão do cliente que usará o app.
+sauvaes), imagens de alta qualidade. Ter bem definidos os tipos de funcionalidades que esta aplicação vai ter, se apenas compra, se divulgação de trabalhos de artistas e
+de eventos, se haverá um clube de benefícios. Tudo o que seja pensado e voltado para o público-alvo, de forma intutiva e fácil uso. 
+Em seguida, fazer a prototipação para testar as funcionalidades e o aplicatibo como um todo. Analisar as sugestões da equipe acerca de melhoras, colocar para a equipe da
+própria galeria analisar, testar com pessoas que tenham a visão do cliente que usará o app. Para, então, serem feitos os reajustes necessários e desenvolvimento da
+apicação final.
