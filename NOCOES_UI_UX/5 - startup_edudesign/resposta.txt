@@ -1,0 +1,15 @@
+Como a empresa já tem pronto o protótipo, é interessante inciar a fase de Validação.
+Será um processo realizado em conjunto com o público alvo para avaliar se a aplicação
+atende ao que é desejado e esperado pelo cliente, sendo feita a etapa de testagem. É
+nesta etapa onde são identificados potenciais problemas e realizados os ajustes neces-
+sários.
+A Matriz de Feedback pode ser uma ótima opção para essa validação. Ela possui os pontos 
+positivos, negativos, as oportunidades e sugestões. Assim, é possível identificar possíveis 
+falhas e caminhos para melhorias.
+Durante a aplicação da matriz de feedback, é importante que a equipe não explique como 
+funciona o protótipo, dessa forma o cliente tem toda a experiência de utilizar o protótipo 
+do zero tirando as suas próprias conclusões. Além disso, peça que ele expresse os seus 
+pensamentos para que isso também seja considerado. 
+Se possível, não expor a solução completa para a fase de teste. Procurar dividir em algumas 
+etapas, para que os detalhes possam ser evidenciados e deixar a pessoa a vontade para solicitar
+algo que sente falta na proposta.
