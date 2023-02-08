@@ -1,0 +1,4 @@
+Neste caso seria indicado um teste de usabilidade para avaliar a interação com o público-alvo, tendo em vista que esta técnica não foi feita anteriormente
+e é fundamental para ver como este público ragir em relação ao produto de interesse ofertado. É uma técnica de pesquisa para avaliar um produto ou serviço.
+Os testes são realizados com usuários representativos do público-alvo. Aqui o participante realiza tarefas típicas enquanto o especialista observa, escuta 
+e anota.
