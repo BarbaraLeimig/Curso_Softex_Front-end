@@ -1,0 +1,15 @@
+Uma tarefa que um usuário poderia realizar para testar a eficiência de uso de um aplicativo seria a de fazer uma compra em uma loja online. Vamos analisar o comportamento
+do usuário com relação à eficiência de uso. 
+Ao acessar a loja online, o usuário deve procurar por um produto que deseja comprar. A facilidade de aprendizado do site ou aplicativo será testada nessa etapa. 
+Se o usuário tiver dificuldades em encontrar o produto desejado, isso pode indicar que o design do site não é intuitivo o suficiente ou que a organização dos produtos
+não é clara o suficiente.
+Em seguida, o usuário deve adicionar o produto ao carrinho de compras e finalizar a compra. A eficiência de uso será testada nessa etapa. Se o processo de adicionar o
+produto ao carrinho e finalizar a compra for rápido e intuitivo, isso indica que o aplicativo é eficiente. No entanto, se o usuário tiver dificuldades em navegar pelo 
+processo de checkout ou se tiver que preencher muitas informações desnecessárias, isso pode indicar que o aplicativo não é eficiente.
+A facilidade de memorização também pode ser testada nessa tarefa, se o aplicativo oferecer uma opção de salvar as informações de pagamento do usuário para compras 
+futuras. Se o usuário encontrar essa opção facilmente e se sentir confortável em salvar suas informações, isso pode indicar que o aplicativo é fácil de memorizar.
+Erros também são uma preocupação em qualquer aplicativo. Se o usuário encontrar erros ou bugs durante o processo de compra, isso pode afetar sua satisfação e confiança 
+no aplicativo. Portanto, é importante que o aplicativo seja testado minuciosamente para garantir que não haja erros ou problemas técnicos durante o processo de compra.
+Por fim, a satisfação do usuário é um elemento importante a ser considerado. Se o usuário ficar satisfeito com sua experiência de compra, é mais provável que ele retorne
+ao aplicativo no futuro e o recomende a outros usuários. Se o usuário tiver uma experiência ruim, pode ser que ele nunca mais volte e ainda desencoraje outras pessoas a 
+usarem o aplicativo. Portanto, é importante garantir que a experiência de compra seja agradável e satisfatória para o usuário.
