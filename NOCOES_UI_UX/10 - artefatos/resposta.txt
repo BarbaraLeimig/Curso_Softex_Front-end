@@ -1,0 +1,6 @@
+Para o projeto A, um produto completamente novo e sem funcionalidades e elementos de design definidos, o artefato mais adequado seria um protótipo de baixa fidelidade.
+A criação de um protótipo de baixa fidelidade é uma excelente opção para os projetos que estão em fase inicial, pois permite que a equipe visualize a ideia de forma 
+rápida e econômica. Além disso, o protótipo de baixa fidelidade pode ser facilmente modificado, o que permite que a equipe faça ajustes necessários antes de investir 
+tempo e recursos na construção do produto final.
+Com o protótipo de baixa fidelidade, a equipe poderá testar e validar a ideia com os usuários, garantindo que o produto atenda às necessidades dos usuários antes de
+avançar para a próxima fase do projeto.
